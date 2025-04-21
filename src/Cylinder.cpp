@@ -9,7 +9,7 @@
 
 double Cylinder :: SurfaceArea(){
     
-    return pi * radius * 2 * (height + radius)/*radius * radius * M_PI * 2 + 2 * M_PI * radius * height*/;
+    return pi * radius * 2 * (height + radius);
 }
 
 double Cylinder :: Volume(){
